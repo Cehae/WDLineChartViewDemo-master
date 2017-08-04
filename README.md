@@ -88,6 +88,7 @@ WDPointType_Ring         // 圆环
 
 喜欢的请star，如有问题请加我QQ1291349760，欢迎小伙伴交流。
 地址：[GitHub](https://github.com/Cehae/WDLineChartViewDemo-master)
+博客：[博客](http://blog.csdn.net/Cehae/article/details/76686986)
 
 使用方法
 ```
