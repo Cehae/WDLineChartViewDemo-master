@@ -1,20 +1,24 @@
-# WDLineChartViewDemo-master 自定义折线图/柱状图
+//
+//  WDLineChartView.h
+//  WDLineChartViewDemo
+//
+//  Created by WD on 2017/6/2.
+//  Copyright © 2017年 CFJ. All rights reserved.
+//
 
-利用layer和核心动画封装的折线图/柱状图，网格间距颜色，折线类型，连接点形状等等都可以自定义，可以左右滚动，使用灵活方便，适合制作统计图。喜欢的请Star。
+#import <UIKit/UIKit.h>
 
-可自定义属性
-```
 // 线条类型
 typedef NS_ENUM(NSInteger, WDLineChartType) {
-WDLineChartType_Straight = 0, // 折线
-WDLineChartType_Curve     // 曲线
-
+    WDLineChartType_Straight = 0, // 折线
+    WDLineChartType_Curve     // 曲线
+   
 };
 // 点类型
 typedef NS_ENUM(NSInteger, WDPointType) {
-WDPointType_Rect = 0,         // 方形
-WDPointType_Circel,       // 圆形
-WDPointType_Ring         // 圆环
+    WDPointType_Rect = 0,         // 方形
+    WDPointType_Circel,       // 圆形
+    WDPointType_Ring         // 圆环
 };
 
 @interface WDLineChartView : UIView
@@ -81,12 +85,5 @@ WDPointType_Ring         // 圆环
 #pragma mark - 绘制方法
 // 绘制
 - (void)drawChartView;
-```
 
-效果图：
-![效果图](http://img.blog.csdn.net/20170804155433871?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvQ2VoYWU=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
-
-喜欢的请star，如有问题请加我QQ1291349760，欢迎小伙伴交流。
-地址：[GitHub](https://github.com/Cehae/WDLineChartViewDemo-master)
-
-
+@end
