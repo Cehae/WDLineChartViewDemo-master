@@ -84,7 +84,7 @@ WDPointType_Ring         // 圆环
 ```
 
 效果图：
-![效果图](http://img.blog.csdn.net/20170804155433871?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvQ2VoYWU=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![效果图](http://img.blog.csdn.net/20170804162049044?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvQ2VoYWU=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 
 
