@@ -411,7 +411,7 @@
     
     for (int i = 0; i < _xCount; i ++) {
         
-        CGPoint point = CGPointMake(_leftMargin + _everyW * (i + 1), _topMargin + (1 - [self.yValues[i] floatValue] / _maxY) * allH);
+        CGPoint point = CGPointMake(_leftMargin + _everyW*0.5 +_everyW * i , _topMargin + (1 - [self.yValues[i] floatValue] / _maxY ) * allH);
         
         CGRect rect = CGRectMake(point.x - _pillarsW / 2, point.y, _pillarsW, (CGRectGetHeight(self.bgView.frame) -  _bottomMargin - point.y));
         

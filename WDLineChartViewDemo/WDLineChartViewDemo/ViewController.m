@@ -22,8 +22,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+        
+    WDLineChartView * cView = [WDLineChartView lineChartViewWithFrame:CGRectMake(0,0,[UIScreen mainScreen].bounds.size.width,280)];
     
-    WDLineChartView * cView = [WDLineChartView lineChartViewWithFrame:CGRectMake(0,20,self.BGView.bounds.size.width,self.BGView.bounds.size.height-20)];
     [self.BGView addSubview:cView];
     
     self.cView = cView;
