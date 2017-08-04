@@ -86,6 +86,8 @@ WDPointType_Ring         // 圆环
 效果图：
 ![效果图](http://img.blog.csdn.net/20170804155433871?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvQ2VoYWU=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
+
+
 喜欢的请star，如有问题请加我QQ1291349760，欢迎小伙伴交流。
 地址：[GitHub](https://github.com/Cehae/WDLineChartViewDemo-master)
 博客：[博客](http://blog.csdn.net/Cehae/article/details/76686986)
